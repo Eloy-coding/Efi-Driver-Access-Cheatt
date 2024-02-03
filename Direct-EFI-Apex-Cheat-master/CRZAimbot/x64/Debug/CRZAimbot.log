@@ -1,0 +1,29 @@
+﻿  Analyse des sources à la recherche des dépendances de module...
+cl : ligne de commande  warning D9025: substitution de '/sdl' par '/GS-'
+  Main.cpp
+C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Netvars\Entity.h(3,15): error C2011: 'CEntity' : redéfinition du type 'class'
+  (compiler le fichier source 'Main.cpp')
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Netvars\Entity.h(3,7):
+  voir la déclaration de 'CEntity'
+  
+C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Main.cpp(108,40): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)' : impossible de convertir l'argument 1 de 'const char *' en 'LPCWSTR'
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Main.cpp(108,41):
+  Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  voir la déclaration de 'GetModuleHandleW'
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Main.cpp(108,40):
+  lors de la tentative de mise en correspondance de la liste des arguments '(const char *)'
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Main.cpp(108,40):
+  'GetModuleHandleW' : la déclaration de fonction doit être disponible, car aucun des arguments ne dépend d'un paramètre de modèle
+  
+C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Main.cpp(141,9): error C2027: utilisation du type non défini 'CEntity'
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Netvars\Entity.h(3,7):
+  voir la déclaration de 'CEntity'
+  
+  Driver.cpp
+  Netvar.cpp
+C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Netvars\Netvar.cpp(17,76): error C2572: 'Dump' : redéfinition de l'argument par défaut : paramètre 1
+  C:\Users\Eloy\source\repos\Direct-EFI-Apex-Cheat-master\CRZAimbot\Netvars\Netvar.h(11,6):
+  voir la déclaration de 'Dump'
+  
+  Génération de code en cours...

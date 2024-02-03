@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Globals.h.obj",
+            "outputs": [
+                "C:\\Users\\Eloy\\source\\repos\\Direct-EFI-Apex-Cheat-master\\CRZAimbot\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\Eloy\\source\\repos\\Direct-EFI-Apex-Cheat-master\\CRZAimbot\\x64\\Debug\\Globals.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Globals.h",
+                    "source-path": "c:\\users\\eloy\\source\\repos\\direct-efi-apex-cheat-master\\crzaimbot\\globals.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
